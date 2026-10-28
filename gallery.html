@@ -1,80 +1,149 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Gallery</title>
-    <link rel="stylesheet" href="style 2.css"> <!-- Link to your CSS file -->
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Explore campus life, computer labs, academic seminars, annual events, and student achievements at Dr. D. Y. Patil School of Science & Technology.">
+  <title>Campus Photo Gallery | Dr. D. Y. Patil School of Science & Technology</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="icon" type="image/jpeg" href="logo.jpg">
 </head>
 <body>
-    <header>
-        <h1>Gallery</h1>
-    </header>
-    <main>
-        <section class="gallery">
-            <div class="image">
-                <img src="11.png" alt="Image 1">
-            </div>
-            <div class="image">
-                <img src="12.png" alt="Image 2">
-            </div>
-            <div class="image">
-                <img src="13.png" alt="Image 3">
-            </div>
-            <div class="image">
-                <img src="14.png" alt="Image 1">
-            </div>
-            <div class="image">
-                <img src="15.png" alt="Image 2">
-            </div>
-            <div class="image">
-                <img src="16.png" alt="Image 3">
-            </div>
-            <div class="image">
-                <img src="17.png" alt="Image 1">
-            </div>
-            <div class="image">
-                <img src="18.png" alt="Image 2">
-            </div>
-            <div class="image">
-                <img src="19.png" alt="Image 3">
-            </div>
-        </section>
-    </main>
-    <footer>
-        <div class="footer">
-            <div class="container">
-                <div class="footer-sect">
-                    <img class="footer-logo" src="logo1.jpg">
-                </div>
-                <div class="footer-sect">
-                    <address> Dr. D. Y. Patil Biotechnology and Bioinformatics Institute, Sr. No. 87-88, Mumbai- Bangalore Highway, Tathawade, Pune, Maharashtra 411033. </address>
-                </div>
-                <div class="footer-sect">
-                    <img src="tel.png"> +91 - 020 6791 9444
-                </div>
-                <div class="footer-sect">
-                    <img src="mail.png"> info@dypsst.com
-                </div>
-                <div class="footer-sect">
-                    <img src="fb.png">
-                    <img src="tw.png">
-                    <img src="in.png">
-                    <img src="li.png">
-                </div>
-                <div class="footer-sect">
-                    <a href="#"> Home</a>
-                    <a href="#"> About us</a>
-                    <a href="#"> Academics</a>
-                    <a href="#"> Gallery</a>
-                    <a href="#"> Contact Us</a>
-                </div>
-            </div>
+
+  <!-- Top Announcement Header -->
+  <div class="width-100 top-header">
+    <div class="container">
+      <div class="top-header-inner">
+        <span class="news-list">NEWS</span>
+        <marquee class="headquote" behavior="scroll" direction="left" onmouseover="this.stop();" onmouseout="this.start();">
+          Check out the latest photographs from our Convocation Ceremony, Technical Hackathons, and Cultural Festival!
+        </marquee>
+      </div>
+    </div>
+  </div>
+
+  <!-- Main Navigation Header -->
+  <header class="width-100 header-menu">
+    <div class="container header-container">
+      <div class="logo">
+        <a href="index.html">
+          <img src="logo1.jpg" alt="Dr. D. Y. Patil School of Science & Technology Logo">
+        </a>
+      </div>
+      <nav>
+        <ul class="main-menu">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="college.html">About Us</a></li>
+          <li><a href="academics.html">Academics</a></li>
+          <li><a href="admission.html">Admission</a></li>
+          <li><a href="gallery.html" class="active">Gallery</a></li>
+          <li><a href="contact.html">Contact Us</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Page Hero -->
+  <section class="page-hero">
+    <div class="container">
+      <h1>Campus Photo Gallery</h1>
+      <p>A glimpse into life at Dr. D. Y. Patil Vidyapeeth: world-class infrastructure, high-tech laboratories, seminars, vibrant cultural gatherings, and convocation milestones.</p>
+    </div>
+  </section>
+
+  <!-- Gallery Grid -->
+  <main class="container">
+    <section class="gallery">
+      <div class="gallery-item">
+        <img src="11.png" alt="Campus Building and Green Lawns">
+      </div>
+      <div class="gallery-item">
+        <img src="12.png" alt="Advanced Computer Science Lab">
+      </div>
+      <div class="gallery-item">
+        <img src="13.png" alt="Academic Auditorium & Seminar Hall">
+      </div>
+      <div class="gallery-item">
+        <img src="14.png" alt="Student Workshop & Prototyping Space">
+      </div>
+      <div class="gallery-item">
+        <img src="15.png" alt="Central Library & Research Repository">
+      </div>
+      <div class="gallery-item">
+        <img src="16.png" alt="Annual Convocation Ceremony">
+      </div>
+      <div class="gallery-item">
+        <img src="17.png" alt="Robotics & AI Innovation Hub">
+      </div>
+      <div class="gallery-item">
+        <img src="18.png" alt="Sports Complex & Student Arena">
+      </div>
+      <div class="gallery-item">
+        <img src="19.png" alt="Cultural Fest & Youth Festival Celebrations">
+      </div>
+    </section>
+  </main>
+
+  <!-- Unified Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        
+        <!-- College Contact Column -->
+        <div class="footer-col">
+          <img class="footer-logo" src="logo1.jpg" alt="Dr. D. Y. Patil Logo">
+          <address class="footer-address">
+            Dr. D. Y. Patil Biotechnology and Bioinformatics Institute & School of Science & Technology,<br>
+            Sr. No. 87-88, Mumbai - Bangalore Express Highway, Tathawade, Pune, Maharashtra 411033, India.
+          </address>
+          <div class="footer-contact-item">
+            <img src="tel.png" alt="Phone Icon">
+            <a href="tel:+9102067919444">+91 - 020 6791 9444</a>
+          </div>
+          <div class="footer-contact-item">
+            <img src="mail.png" alt="Email Icon">
+            <a href="mailto:info@dypsst.com">info@dypsst.com</a>
+          </div>
         </div>
-        <!-- Footer Copyright HTML Starts -->
-        <div class="width-100 footer2-bacbor">
-            <p class="footer2-content">Copyright @ 2024, dypsst.com. All Rights Reserved</p>
+
+        <!-- Quick Navigation Column -->
+        <div class="footer-col">
+          <h4>Quick Links</h4>
+          <ul class="footer-quick-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="college.html">About Our College</a></li>
+            <li><a href="academics.html">Academic Programs</a></li>
+            <li><a href="admission.html">Admissions & Eligibility</a></li>
+            <li><a href="gallery.html">Campus Photo Gallery</a></li>
+            <li><a href="contact.html">Contact & Enquiries</a></li>
+          </ul>
         </div>
-    </footer>
+
+        <!-- Social Media Column -->
+        <div class="footer-col">
+          <h4>Connect With Us</h4>
+          <p style="color: #64748b; font-size: 14px; margin-bottom: 12px;">
+            Stay updated with our latest academic announcements, student activities, and campus events.
+          </p>
+          <div class="footer-social-links">
+            <a href="https://facebook.com" target="_blank" rel="noopener" title="Facebook"><img src="fb.png" alt="Facebook"></a>
+            <a href="https://twitter.com" target="_blank" rel="noopener" title="Twitter"><img src="tw.png" alt="Twitter"></a>
+            <a href="https://linkedin.com" target="_blank" rel="noopener" title="LinkedIn"><img src="in.png" alt="LinkedIn"></a>
+            <a href="https://instagram.com" target="_blank" rel="noopener" title="Instagram"><img src="li.png" alt="Instagram"></a>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </footer>
+
+  <!-- Copyright Bar -->
+  <div class="width-100 footer2-bacbor">
+    <p class="footer2-content">
+      Copyright &copy; 2024 Dr. D. Y. Patil School of Science & Technology (dypsst.com). All Rights Reserved.
+    </p>
+  </div>
+
+  <script src="script.js"></script>
 </body>
 </html>
