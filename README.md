@@ -191,7 +191,7 @@ You can host this website completely **FREE** on GitHub Pages in 4 simple steps:
 
 ## 👩‍💻 Author & Acknowledgments
 
-- **Author:** [Bhagyashree Patil](https://github.com/bhagyashree213)
+- **Author:** [Bhagyashree Bhusare](https://github.com/bhagyashree213)
 - **Institution:** [Dr. D. Y. Patil School of Science & Technology](https://dypsst.com/), Pune
 - **Repository:** [https://github.com/bhagyashree213/college-website](https://github.com/bhagyashree213/college-website)
 
